@@ -14,6 +14,7 @@ interface Project {
   image: string;
   status: string | null;
   code: string | null;
+  alt: string | null;
 }
 ---
 
@@ -105,6 +106,7 @@ interface Project {
                 <img
                   src={`/projects/${project.image}`}
                   class="w-full h-full hover:scale-125 object-cover object-center transition-all"
+                  alt={project.alt !== null ? project.alt : " "}
                 />
               </div>
               <h3 class="text-lg font-bold mt-1 leading-none">
