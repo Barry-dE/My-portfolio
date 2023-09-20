@@ -11,8 +11,18 @@
     "name": "Mi Band 6",
     "description": "Minimalistic creative website for Mi Band 6",
     "url": null,
-    "github_url": "https://github.com/Barry-dE/monty",
-    "image": "sidekyk.png",
-    "code": null
+    "github_url": null,
+    "image": "Mi.jpg",
+    "code": null,
+    "status": "In development"
+  },
+  {
+    "name": "RoamRoots",
+    "description": "A web app that helps users plan and organize their trips efficiently.",
+    "url": null,
+    "github_url": null,
+    "image": null,
+    "code": null,
+    "status": "In development"
   }
 ]

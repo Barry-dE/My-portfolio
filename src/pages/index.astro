@@ -118,12 +118,9 @@ interface Project {
                   </div>
                 )}
                 <a
-                  href={
-                    "https://www." +
-                    (project.url ? project.url : project.github_url)
-                  }
+                  href={project.url ? project.url : project.github_url}
                   target="_blank"
-                  class="block w-max text-xs font-medium"
+                  class="block hover:cursor-pointer w-max text-xs font-medium"
                 >
                   {project.code ? project.code : "Visit website"}
                 </a>
