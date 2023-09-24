@@ -1,0 +1,19 @@
+"apple": "I am a red fruit"
+#YAML is case sensitive.
+---
+cities:
+  - Port Harcourt
+  - Andoni
+  - Eleme
+  - Koroma
+---
+#Lists
+- Node
+- TypeScript
+- GraphQL
+---
+name: | "My name is Barigbue Nbira, i am a software engineer". I love to write code and build stuff.
+
+number: 24
+
+float:  Yes
