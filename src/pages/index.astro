@@ -31,9 +31,8 @@ interface Project {
         class="highlight">technical writer</span
       > with a passion for <span class="highlight">building</span> things that run
       on computers. While building, I constantly explore new tools, languages, and
-      technologies to enhance my skills and knowledge. My interests include (but
-      not limited to): <span class="highlight"
-        >DevOps, Blockchain, and the Web</span
+      technologies to enhance my skills and knowledge. My interests include <span
+        class="highlight">DevOps and the Web</span
       >. <br />
       <br /> Outside of coding, I enjoy reading, writing blog posts, gaming, and
       photography. I am a curious and self-motivated individual with a strong work
@@ -49,8 +48,7 @@ interface Project {
         list.
       </p>
       <div
-        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5"
-      >
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5">
         <ToolCard name="Kubernetes" />
         <ToolCard name="Terraform" />
         <ToolCard name="Elasticsearch" />
@@ -78,8 +76,7 @@ interface Project {
           with at some point in the future
         </p>
         <div
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5"
-        >
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5">
           <ToolCard name="Flutter" invert={true} />
           <ToolCard name="Solidity" />
           <ToolCard name="Go" />
@@ -97,8 +94,7 @@ interface Project {
       </p>
 
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-5"
-      >
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-5">
         {
           (projects as Project[]).map((project) => (
             <div class="flex flex-col gap-1.5">
@@ -122,9 +118,12 @@ interface Project {
                 <a
                   href={project.url ? project.url : project.github_url}
                   target="_blank"
-                  class="block hover:cursor-pointer w-max text-xs font-medium"
-                >
-                  {project.code ? project.code : "Visit website"}
+                  class="block hover:cursor-pointer w-max text-xs font-medium">
+                  {project.code
+                    ? project.code
+                    : project.status === "In development"
+                    ? " "
+                    : "Visit website"}
                 </a>
               </div>
             </div>
