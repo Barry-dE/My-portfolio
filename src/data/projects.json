@@ -8,26 +8,7 @@
     "code": "Code",
     "alt": "A picture of the monty repo"
   },
-  {
-    "name": "Mi Band 6",
-    "description": "Minimalistic creative website for Mi Band 6",
-    "url": null,
-    "github_url": null,
-    "image": "Mi.jpg",
-    "code": null,
-    "status": "In development",
-    "alt": "A picture of the Mi band 6 site"
-  },
-  {
-    "name": "RoamRoots",
-    "description": "A web app that helps users plan and organize their trips efficiently.",
-    "url": null,
-    "github_url": null,
-    "image": "RoamRoots.png",
-    "code": null,
-    "status": "In development",
-    "alt": "RoamRoots"
-  },
+
   {
     "name": "OpenSauced",
     "description": "OpenSauced provides guidance for new contributors to find their next contribution. Our approach towards onboarding offers a way to track contributions through a GitHub-powered dashboard.",
