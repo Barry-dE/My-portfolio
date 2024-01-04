@@ -2,6 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Space+Mono:400,500,600,700&display=swap);
 @import url("https://fonts.cdnfonts.com/css/souvenir-greek-bt");
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 :root {
 	--secondary-dark: #ffffff0d;
@@ -52,6 +55,7 @@ a:hover {
 .site-nav {
 	@apply text-neutral-500 text-sm border-t border-b border-neutral-900 py-3 my-6;
 }
+
 .site-nav a {
 	@apply block w-max text-neutral-500 hover:text-emerald-500 transition-all;
 }
@@ -61,7 +65,7 @@ a:hover {
 }
 
 /* BLOG */
-.blog-content a {
+/* .blog-content a {
 	color: white;
 }
 .blog-content a:hover {
@@ -98,4 +102,4 @@ a:hover {
 
 .font-souvenir {
 	font-family: "SouvenirGreek Lt BT" !important;
-}
+} */
