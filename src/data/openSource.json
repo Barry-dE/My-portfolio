@@ -1,0 +1,12 @@
+[
+  {
+    "name": "OpenSauced",
+    "description": "OpenSauced provides guidance for new contributors to find their next contribution. Our approach towards onboarding offers a way to track contributions through a GitHub-powered dashboard.",
+    "url": "https://docs.opensauced.pizza/",
+    "github_url": null,
+    "image": "SaucedOpen.png",
+    "code": null,
+    "status": "Contributor",
+    "alt": "OpenSauced"
+  }
+]
