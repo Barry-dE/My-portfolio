@@ -8,15 +8,14 @@
     "code": "Code",
     "alt": "A picture of the monty repo"
   },
-
   {
-    "name": "OpenSauced",
-    "description": "OpenSauced provides guidance for new contributors to find their next contribution. Our approach towards onboarding offers a way to track contributions through a GitHub-powered dashboard.",
-    "url": "https://docs.opensauced.pizza/",
+    "name": "Raft",
+    "description": "Experience the future of banking with Raft.",
+    "url": " ",
     "github_url": null,
-    "image": "SaucedOpen.png",
+    "image": "Raft.png",
     "code": null,
-    "status": "Contributor",
-    "alt": "OpenSauced"
+    "status": "In development",
+    "alt": "Raft"
   }
 ]

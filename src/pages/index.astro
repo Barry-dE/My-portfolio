@@ -3,6 +3,7 @@ import Header from "../components/Header.astro";
 import SectionHeader from "../components/SectionHeader.astro";
 import ToolCard from "../components/ToolCard.astro";
 import projects from "../data/projects.json";
+import openSource from "../data/openSource.json";
 
 import Layout from "../layouts/Layout.astro";
 
@@ -28,15 +29,15 @@ interface Project {
 
     <p id="about">
       A <span class="highlight">versatile</span> software engineer with a deep-seated
-      passion for building and automating things that run on computers. My expertise
-      spans both <span class="highlight">development</span> and <span
+      passion for building, maintaining, and automating things that run on computers.
+      My expertise spans both <span class="highlight">development</span> and <span
         class="highlight">operations</span
       >, allowing me to seamlessly navigate the entire software lifecycle, from
-      conception to deployment and beyond. <br />
+      conception to deployment, and beyond. <br />
       <br />I relish the challenge of delving into new tools, languages, and
       technologies to continuously enhance my skillset and expand my knowledge
-      base. This commitment to lifelong learning has empowered me to develop a
-      comprehensive understanding of software development methodologies, system
+      base. This commitment to lifelong learning has empowered me to develop an
+      understanding of software development methodologies, system
       architecture/design, design patterns, and networking. My <span
         class="highlight">DevOps</span
       > skills enable me to streamline the software development process.
@@ -129,6 +130,51 @@ interface Project {
                   {project.code
                     ? project.code
                     : project.status === "In development"
+                    ? " "
+                    : "Visit website"}
+                </a>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+    <section id="projects">
+      <SectionHeader>Open Source Contributions</SectionHeader>
+      <p>
+        In the spirirt of giving service, I decided to contribute to open source
+        projects. Below are open source projects I have contributed to.
+      </p>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-5">
+        {
+          openSource.map((openSource) => (
+            <div class="flex flex-col gap-1.5">
+              <div class="relative w-full border border-neutral-900 aspect-[1.5] overflow-hidden rounded-lg cursor-pointer">
+                <img
+                  src={`/projects/${openSource.image}`}
+                  class="w-full h-full hover:scale-125 object-cover object-center transition-all"
+                  alt={openSource.alt !== null ? openSource.alt : " "}
+                />
+              </div>
+              <h3 class="text-lg font-bold mt-1 leading-none">
+                {openSource.name}
+              </h3>
+              <p class="text-sm">{openSource.description}</p>
+              <div class="flex items-center justify-between mt-auto">
+                {openSource.status && (
+                  <div class="w-max bg-neutral-900 text-neutral-500 text-[10px] font-medium px-2.5 py-1 rounded drop-shadow-md">
+                    {openSource.status}
+                  </div>
+                )}
+                <a
+                  href={openSource.url ? openSource.url : openSource.github_url}
+                  target="_blank"
+                  class="block hover:cursor-pointer w-max text-xs font-medium">
+                  {openSource.code
+                    ? openSource.code
+                    : openSource.status === "In development"
                     ? " "
                     : "Visit website"}
                 </a>
