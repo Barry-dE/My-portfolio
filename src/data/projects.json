@@ -27,27 +27,5 @@
     "code": null,
     "status": "In development",
     "alt": "Globtex"
-  },
-   {
-    "name": "DNS-Resolver",
-    "description": "A DNS Resolver server that resolves domain names to IP addresses. This project was built in a bid to learn how to use Golang in Networking",
-    "url": " ",
-    "github_url": null,
-    "image": "monty.png",
-    "code": null,
-    "status": "In development",
-    "alt": "DNS-Resolver"
-  },
-  {
-    "name": "Golhon",
-    "description": "Unlock potential through golf mastery",
-    "url": " ",
-    "github_url": null,
-    "image": "Golhon.png",
-    "code": null,
-    "status": "In development",
-    "alt": "Golhon"
   }
-
-  
 ]

@@ -8,15 +8,5 @@
     "code": null,
     "status": "Contributor",
     "alt": "OpenSauced"
-  },
-  {
-    "name": "Barlog",
-    "description": "Barlog is a software that runs the server side component of the update system used by FireFox and other Mozilla products.",
-    "url": "http://mozilla-balrog.readthedocs.io/en/latest/index.html",
-    "github_url": "https://github.com/mozilla-releng/balrog",
-    "image": "Barlog.png",
-    "code": null,
-    "status": "Contributor",
-    "alt": "Barlog"
   }
 ]

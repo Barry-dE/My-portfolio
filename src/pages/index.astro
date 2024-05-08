@@ -24,21 +24,23 @@ interface Project {
     <Header />
 
     <h1 class="text-3xl lg:text-3xl font-bold font-souvenir mb-4 mt-6">
-      Hi, I'm Barigbue &#128075;
+      Hello there, I'm Barigbue &#128075;
     </h1>
 
     <p id="about" class="justify-text">
-      I double as a <span class="highlight">software developer</span> and a <span class="highlight">DevOps Engineer</span>. I have a deep-seated
-      passion for building, maintaining, and automating things that run on computers.
-      My expertise spans both <span class="highlight">development</span> and <span
-        class="highlight">operations</span
-      >, allowing me to seamlessly navigate the entire software lifecycle, from
-      conception to deployment, and beyond. <br />
+      I am a <span class="highlight">software developer</span> and <span
+        class="highlight">DevOps Engineer</span
+      >. I have a deep-seated passion for building, maintaining, and automating
+      things that run on computers. My expertise spans both <span
+        class="highlight">development</span
+      > and <span class="highlight">operations</span>, allowing me to seamlessly
+      navigate the entire software lifecycle, from conception to deployment, and
+      beyond. <br />
       <br />I relish the challenge of delving into new tools, languages, and
       technologies to continuously enhance my skillset and expand my knowledge
       base. This commitment to lifelong learning has empowered me to develop an
       understanding of software development methodologies, system
-      architecture/design, design patterns, and networking. 
+      architecture/design, design patterns, and networking.
       <br />
       <br /> When I am not building or automating stuff, you can find me reading,
       writing on my <span class="highlight"
@@ -58,7 +60,8 @@ interface Project {
       </p>
 
       <div
-        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5">
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5"
+      >
         <ToolCard name="Kubernetes" />
         <ToolCard name="Terraform" />
         <ToolCard name="Ansible" />
@@ -82,24 +85,21 @@ interface Project {
           with at some point in the future
         </p>
         <div
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5">
-          <ToolCard name="Swift" />
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5 mt-5"
+        >
           <ToolCard name="Redis" />
           <ToolCard name="Prometheus" />
+          <ToolCard name="flutter" />
         </div>
       </div>
     </section>
 
     <section id="projects">
       <SectionHeader>Projects</SectionHeader>
-      <p>
-        During my free time, I like to build things that I find interesting;
-        sometimes to learn more about something. Here are a couple of them. You
-        can find others on my GitHub. I also contribute to open source projects.
-      </p>
 
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-5">
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-5"
+      >
         {
           (projects as Project[]).map((project) => (
             <div class="flex flex-col gap-1.5">
@@ -123,7 +123,8 @@ interface Project {
                 <a
                   href={project.url ? project.url : project.github_url}
                   target="_blank"
-                  class="block hover:cursor-pointer w-max text-xs font-medium">
+                  class="block hover:cursor-pointer w-max text-xs font-medium"
+                >
                   {project.code
                     ? project.code
                     : project.status === "In development"
@@ -144,7 +145,8 @@ interface Project {
       </p>
 
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-5">
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-5"
+      >
         {
           openSource.map((openSource) => (
             <div class="flex flex-col gap-1.5">
@@ -168,7 +170,8 @@ interface Project {
                 <a
                   href={openSource.url ? openSource.url : openSource.github_url}
                   target="_blank"
-                  class="block hover:cursor-pointer w-max text-xs font-medium">
+                  class="block hover:cursor-pointer w-max text-xs font-medium"
+                >
                   {openSource.code
                     ? openSource.code
                     : openSource.status === "In development"
