@@ -9,6 +9,15 @@
     "alt": "A picture of the monty repo"
   },
   {
+    "name": "Thrively",
+    "description": "Discover Insights, Inspiration & Growth in Every Inbox",
+    "url": "https://thrive-bay.vercel.app/",
+    "github_url": null,
+    "image": "Thrively.png",
+    "code": null,
+    "alt": "Thrively"
+  },
+  {
     "name": "Raft",
     "description": "Experience the future of banking with Raft.",
     "url": " ",
@@ -17,15 +26,5 @@
     "code": null,
     "status": "In development",
     "alt": "Raft"
-  },
-  {
-    "name": "Globtex",
-    "description": "Creating global communications and building local communities",
-    "url": " ",
-    "github_url": null,
-    "image": "Globtex.png",
-    "code": null,
-    "status": "In development",
-    "alt": "Globtex"
   }
 ]
