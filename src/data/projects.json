@@ -1,7 +1,7 @@
 [
   {
     "name": "Floema-clone",
-    "description": "My attempt at rebuilding the Floema website",
+    "description": "My attempt at rebuilding the Floema website. For the full web experience, access website on a laptop",
     "url": "https://floema-clone.vercel.app/",
     "github_url": null,
     "image": "Floema-clone.png",
