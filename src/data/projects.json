@@ -1,13 +1,14 @@
 [
   {
-    "name": "Monty",
-    "description": "Simple interpreter for Monty ByteCodes",
-    "url": null,
-    "github_url": "https://github.com/Barry-dE/monty",
-    "image": "monty.png",
-    "code": "Code",
-    "alt": "A picture of the monty repo"
+    "name": "Floema-clone",
+    "description": "My attempt at rebuilding the Floema website",
+    "url": "https://floema-clone.vercel.app/",
+    "github_url": null,
+    "image": "Floema-clone.png",
+    "code": null,
+    "alt": "Floema-clone"
   },
+
   {
     "name": "Thrively",
     "description": "Discover Insights, Inspiration & Growth in Every Inbox",
@@ -17,6 +18,17 @@
     "code": null,
     "alt": "Thrively"
   },
+
+  {
+    "name": "Monty",
+    "description": "Simple interpreter for Monty ByteCodes",
+    "url": null,
+    "github_url": "https://github.com/Barry-dE/monty",
+    "image": "monty.png",
+    "code": "Code",
+    "alt": "A picture of the monty repo"
+  },
+
   {
     "name": "Raft",
     "description": "Experience the future of banking with Raft.",
