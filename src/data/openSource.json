@@ -8,5 +8,15 @@
     "code": null,
     "status": "Contributor",
     "alt": "OpenSauced"
+  },
+  {
+    "name": "Parsl",
+    "description": "Parsl enables you to create parallel programs composed of Python functions and external components",
+    "url": "https://parsl-project.org/",
+    "github_url": "https://github.com/Parsl/parsl",
+    "image": "Parsl.png",
+    "code": null,
+    "status": "Contributor",
+    "alt": "Parsl homepage"
   }
 ]
